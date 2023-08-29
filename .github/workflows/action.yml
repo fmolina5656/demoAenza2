@@ -20,6 +20,6 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name StorageAccountDeployment \
-            --resource-group demo \
+            --resource-group DemoAENZA \
             --template-file armtemplates/storageaccount.json \
             --parameters storageAccountType=Standard_GRS
